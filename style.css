@@ -1,4 +1,4 @@
-@font-face { 
+@font-face {
     font-family: "ValueSansProRegular";
     src: url("../fonts/ValueSansProRegular/ValueSansProRegular.eot");
     src: url("../fonts/ValueSansProRegular/ValueSansProRegular.eot?#iefix")format("embedded-opentype"),
@@ -70,9 +70,9 @@
     color: black;
 }
 .block2 {
-	display: flex;
+    display: flex;
     justify-content: center;
-	min-height: 90px;
+    min-height: 90px;
     padding: 0 80px;
 }
 
@@ -82,7 +82,7 @@
     width: 50%;
     height: 40px;
     justify-content: space-between;
-	transition: .4s;
+    transition: .4s;
     font-family: 'Value Sans Pro', sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -133,7 +133,7 @@
 .logo_user_ponel {
     text-decoration: none;
     color: #333333;
-    
+
 }
 .menu_size {
     display: flex;
@@ -158,59 +158,51 @@
     transition: 0.2s;
     font-family: sans-serif;
 }
-.room {
-    position: absolute;
-    width: 945px;
-    height: 531px;
-    left: 992px;
-    top: 257px;
-}
-.room_background{
-    position: absolute;
-    width: 524.45px;
-    height: 793.75px;
-    left: 1723.97px;
-    top: 150px;
 
-    background: #CCCCEC;
+.room {
+    position: relative;
+    padding-left: 1200px;
+    padding-top:100px ;
+
 }
+.room_style {
+    position: absolute;
+    z-index: 2;
+}
+.room_background {
+    position: absolute;
+    z-index: 1;
+}
+
+
+.info {
+    position: relative;
+    height: 788px;
+}
+
 .info_style {
     position: absolute;
-    width: 225px;
-    height: 64px;
     left: 154px;
-    top: 343px;
-
-    font-family: 'Value Sans Pro';
+    top: 200px;
+    font-family: 'Value Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 64px;
-    /* identical to box height, or 267% */
-
-    letter-spacing: -0.01em;
-
     color: rgba(0, 0, 0, 0.76);
-    }
+}
+
 .info_style_li {
     position: absolute;
-    width: 588px;
-    height: 154px;
     left: 154px;
-    top: 433px;
-
-    font-family: 'Value Sans Pro';
+    top: 300px;
+    font-family: 'Value Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 70px;
     line-height: 110%;
-    /* or 77px */
-
-    letter-spacing: 0.005em;
-
     color: rgba(0, 0, 0, 0.76);
 }
-
 
 .example {
     position: relative;
@@ -220,7 +212,6 @@
     left: 376px;
     top: 764px;
     border: 1px solid red;
-
 }
 
 .example__background {
@@ -236,84 +227,186 @@
     top: 28px;
     z-index: 2;
 }
+.object-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    width: 100%;
+    padding-block-start: 0;
+}
+
 .object{
     position: relative;
     width: 206px;
     height: 126px;
-    left: 154px;
-    top: 636px;
-
-
     background: rgba(201, 201, 201, 0.21);
-
 }
+
 .object_image {
     position: absolute;
     right: 9px;
-    top: 28px;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 2;
-
 }
+
 .object_backgroud {
     position: absolute;
     right: 18px;
-    top: 28px;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 1;
 }
-.object_two{
-    position: relative;
-    width: 206px;
-    height: 126px;
-    left: 598px;
-    top: 511px;
-    
+
+.object_two {
     background: linear-gradient(90deg, #E3FDF5 0%, #FFE6FA 100%);
 }
-.object_three {
-    position: relative;
-    width: 206px;
-    height: 126px;
-    left: 820px;
-    top: 385px;
 
+.object_three {
     background: linear-gradient(90deg, #FFFEFF 0%, #D7FFFE 100%);
 }
+
 .object_four {
-    position: relative;
-    width: 206px;
-    height: 126px;
-    left: 1042px;
-    top: 259px;
     background: linear-gradient(90deg, #DFE9F3 0%, #FFFFFF 100%);
 }
+
 .object_five {
-    position: relative;
-    width: 206px;
-    height: 126px;
-    left: 1264px;
-    top: 133px;
-
     background: linear-gradient(90deg, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%);
-
 }
+
 .object_six {
-    position: relative;
-    width: 206px;
-    height: 126px;
-    left: 1486px;
-    top: 7px;
     background: linear-gradient(90deg, #FDFCFB 0%, #E2D1C3 100%);
-    padding-left: 100px;
 }
-.obekt_seven {
-    position: relative;
-    width: 206px;
-    height: 126px;
-    left: 124px;
 
+.object_seven {
     background: linear-gradient(90deg, #E6E9F0 0%, #EEF1F5 100%);
 }
+.foother {
+    position: relative;
+    width: 500px;
+}
+.foother_style {
+    list-style-type: none;
+    position: absolute;
+    width: 500px;
+    height: 64px;
+    left: 154px;
+    padding-top:200px;
+    font-family: 'Value Sans Pro',sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 48px;
+    color: #333333;
+}
+.line {
+    position: absolute;
+    width: 299px;
+    border-bottom: 1px solid black;
+    height: 64px;
+    left: 154px;
+    padding-top:250px;
+    opacity: 0.8;
+}
+.line_top {
+    position: absolute;
+    width: 1242px;
+    height: 1px;
+    left: 724px;
+    padding-top: 230px;
+    width: 1242px;
+    border-bottom: 1px solid #C1C1C1;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top:550px;
 
+}
+.left_footer {
+    width: 100px;
+    padding-left: 100px;
+}
+.footer_image {
+    position: absolute;
+    z-index: 1;
+}
+.foother__backgroud {
+    position: absolute;
+    z-index: 2;
+    padding-left: 19px;
+    padding-top: 17px;
+}
 
-
+.footer_image_right {
+    position: absolute;
+    z-index: 2;
+    padding-top: 15px;
+    padding-left: 23px;
+}
+.foother__backgroud_right {
+    position: absolute;
+    z-index: 1;
+}
+.right_footer {
+    width: 100px;
+}
+.card_one {
+    position: relative;
+}
+.card_image {
+    position: absolute;
+    z-index: 3;
+    padding-left: 10px;
+    padding-top: 100px;
+}
+.card_backgroud {
+    position: absolute;
+    z-index: 2;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+}
+.text_stock {
+    position: absolute;
+    z-index: 3;
+    background: #8B4795;
+    color: white;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    width: 47px;
+    border-radius: 10px 40px 40px 10px;
+    top: 290px;
+}
+.text_hit{
+    position: absolute;
+    z-index: 4;
+    color: white;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    width: 90px;
+    border-radius: 10px 40px 40px 10px;
+    top: 320px;
+    background: #7E94AE;
+}
+.heart {
+    position: absolute;
+    z-index: 5;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.compare {
+    position: absolute;
+    z-index: 5;
+    padding-left: 240px;
+    padding-top: 20px;
+}
 
