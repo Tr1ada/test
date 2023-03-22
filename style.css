@@ -366,6 +366,7 @@
 .card {
     display: flex;
     justify-content: space-around;
+    padding: 0 80;
 }
 .text_stock {
     position: absolute;
