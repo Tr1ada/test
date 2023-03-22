@@ -410,4 +410,47 @@
     padding-left: 240px;
     padding-top: 20px;
 }
+.aside {
+    position: absolute;
+    z-index: 6;
+    padding-top: 360px;
+    width: 232px;
+    
 
+}
+.aside_size {
+    font-family: 'Value Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.005em;
+    color: rgba(0, 0, 0, 0.76);
+    opacity: 0.9;
+    text-decoration: none;
+}
+.aside_chapter{
+    width: 50px;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.005em;
+    color: rgba(0, 0, 0, 0.76);
+    opacity: 0.9;
+    text-decoration: none;
+}
+.aside_li {
+    padding-top: 10px;
+}
+.aside_benefits {
+    position: absolute;
+    width: 220px;
+    padding-top: 12px;
+    background: #FFD103;
+    border-radius: 44px;
+    padding-left: 50px;
+}
