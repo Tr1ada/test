@@ -8,6 +8,10 @@
     font-weight: 400;
 }
 
+a {
+    display: inline-block;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -757,61 +761,56 @@ transform: rotate(-90deg)
     width: 100%;
     height: 794px;
     background: linear-gradient(90deg, #E9DEFA 0%, #FBFCDB 100%);
+    padding: 0 8%;
 }
 .posters {
-    position: absolute;
-    width: 183px;
-    height: 64px;
+    display: flex;
     font-family: 'Value Sans Pro',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 64px;
-    /* identical to box height, or 133% */
-
-    letter-spacing: -0.01em;
-
-    /* black */
-
     color: #333333;
-    top: 236px;
-    left: 151px;
 }
-.line_posters {
+
+.posters-new {
+    position: relative;
+    display: inline-block;
+    margin-top: 230px;
+}
+
+.posters-new:after {
+    content: '';
     position: absolute;
-    width: 299px;
-    border-bottom: 1px solid black;
-    height: 30px;
+    width: 100%;
+    height: 1px;
+    top: 100%;
+    background: #333333;
+    left: 0;
 }
 .posters_text {
-    position: absolute;
-    width: 370px;
-    height: 70px;
     font-family: 'Value Sans Pro',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 35px;
-    /* or 125% */
-
     letter-spacing: -0.01em;
-
     color: rgba(0, 0, 0, 0.76);
-    top: 150px;
+    margin-top: 30px;
 }
+
+.posters-arrows {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
 .slider_right {
-    position: absolute;
     width: 60px;
     height: 58px;
-
-    
     background: #FFFFFF;
-    /* black light */
-    
     border: 2px solid rgba(51, 51, 51, 0.27);
     border-radius: 50%;
-    top: 150px;
-    left: 100px;
 }
 .right_slider{
     box-sizing: border-box;
@@ -819,115 +818,94 @@ transform: rotate(-90deg)
     padding-top: 15px;
 }
 .slider_left {
-    position: absolute;
     width: 60px;
     height: 58px;
-    top: 150px;
-
-    
     background: #FFFFFF;
-    /* black light */
-    
     border: 2px solid rgba(51, 51, 51, 0.27);
     border-radius: 50%;
-    left: 200px;
+    margin-left: 16px;
 }
 .left_slider {
     box-sizing: border-box;
     padding-left: 22px;
     padding-top: 15px;
 }
-.posters_card {
-    position: absolute;
-    width: 354px;
-    height: 514px;
-    left: 672px;
-    top: 0px;
 
+.posters-cards {
+    display: flex;
+    margin-top: 140px;
+    margin-left: 140px;
+}
+
+.posters-cards:hover .posters-card__description-button {
+    display: block;
+}
+
+.posters-card {
     background: #FFFFFF;
     box-shadow: 5px 17px 59px rgba(0, 0, 0, 0.2);
+    margin-left: 8%;
+    padding: 0 34px 34px 34px;
 }
-.posters_one {
-    padding-top: 20%;
-    padding-left: 18%;
+.posters-card__image {
+    margin-top: 60px;
 }
-.posters_chapter {
+.posters-card__description {
+
+}
+.posters-card__description-title {
     width: 200px;
     height: 14px;
-
     font-family: 'Value Sans Pro',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
-    /* identical to box height, or 100% */
-
     letter-spacing: 0.005em;
-
     color: rgba(0, 0, 0, 0.76);
-
     opacity: 0.9;
 }
-.posters_center {
-    position: absolute;
-    width: 40px;
-    height: 20px;
+.posters-card__description-name {
     padding-top: 6px;
-
-
     font-family: 'Value Sans Pro';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
-    /* identical to box height, or 100% */
-
     letter-spacing: 0.005em;
-
     color: rgba(0, 0, 0, 0.76);
-
     opacity: 0.9;
 }
-.posters_bottom {
-    position: absolute;
-    width: 73px;
-    height: 28px;
-    padding-top: 30px;
 
+.posters-card__description-prices {
+    display: flex;
+    margin-top: 30px;
+}
+
+.posters-card__description-price {
     font-family: 'Value Sans Pro';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    /* identical to box height, or 140% */
-
     letter-spacing: 0.005em;
-
     color: rgba(0, 0, 0, 0.76);
-
     opacity: 0.9;
 }
-.posters_cenck {
-    position: absolute;
-    width: 66px;
-    height: 28px;
 
+.posters-card__description-price-crossed-out {
     font-family: 'Value Sans Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    /* identical to box height, or 156% */
-
     letter-spacing: 0.005em;
-
     color: rgba(0, 0, 0, 0.76);
-
     opacity: 0.9;
     text-decoration: line-through;
-    padding-left: 50px;
+    margin-left: 16px;
 }
-.jfsgkhs {
+
+.posters-card__description-button {
+    display: none;
     font-family: 'Value Sans Pro',sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -941,4 +919,72 @@ transform: rotate(-90deg)
     border-radius: 44px;
     text-decoration: none;
     padding-top: 20px;
+    border: none;
+    margin-top: 13px;
+}
+
+.modal-caption {
+    width: 50%px;
+    margin-top: 140px ;
+    width: 600;
+    margin-left: 150px;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.005em;
+    color: #333333;
+}
+.modal-link {
+    margin-left: 134px;
+    margin-top: 30px;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+.modal {
+    position: relative;
+    margin-left: 150px;
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+} 
+.rule{
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+}
+.circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 50%;
+    opacity: .4;
+    z-index: 1;
+}
+
+.beffe {
+    position: absolute;
+    left: 14px;
+    top: 13px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 3;
+}
+.plus {
+    position: absolute;
+    z-index: 4;
+    width: 14px;
+    left: 22px;
+    top: 22px;
 }
