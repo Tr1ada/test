@@ -950,10 +950,10 @@ transform: rotate(-90deg)
     letter-spacing: 0.005em;
 }
 .modal {
+    display: flex;
     position: relative;
     margin-left: 150px;
     height: 100%;
-    width: 100%;
     margin-top: 40px;
 } 
 .rule{
@@ -965,9 +965,8 @@ transform: rotate(-90deg)
     position: absolute;
     width: 60px;
     height: 60px;
-    background-color: gray;
+    background-color:rgba(216,216,216,0.2) ;
     border-radius: 50%;
-    opacity: .4;
     z-index: 1;
 }
 
@@ -979,12 +978,75 @@ transform: rotate(-90deg)
     height: 32px;
     background-color: white;
     border-radius: 50%;
-    z-index: 3;
 }
 .plus {
     position: absolute;
     z-index: 4;
     width: 14px;
-    left: 22px;
-    top: 22px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.rule_two{
+    position: absolute;
+    bottom: 200px;
+    left: 220px;
+}
+.rule_three {
+    position: absolute;
+    top: 120px;
+    left: 320px;
+}
+.rule_four {
+    position: absolute;
+    left: 360px;
+    top: 50px;
+} 
+.modal_jpg {
+    margin-left: 16px;
+}
+.modal_line {
+    position: relative;
+    right: 550px;
+}
+.modal_line-one {
+    width: 143px;
+    position: absolute;
+    border-bottom: 3px solid #8B4795;
+
+}
+.modal_line-two{
+    width: 222px;
+    position: absolute;
+    border-bottom: 3px solid rgba(139, 71, 149, 0.25);
+}
+.modal_slider{
+    margin-top: 700px;
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+
+
+}
+.modal_slider-right {
+    width: 60px;
+    height: 58px;
+    background: #FFFFFF;
+    border: 2px solid #8B4795;
+    border-radius: 50%;
+    top: 200px;
+}
+.modal_slider-left {
+    width: 60px;
+    height: 58px;
+    background: #FFFFFF;
+    border: 2px solid #8B4795;
+    border-radius: 50%;
+    margin-left:16px;
+}
+.modal_img{
+    display: flex;
+    width: 550px;
+    height: 461px;
+    margin-top: 150px;
 }
