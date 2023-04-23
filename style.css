@@ -1024,7 +1024,7 @@ transform: rotate(-90deg)
     margin-top: 700px;
     display: flex;
     align-items: center;
-    margin-right: 80px;
+    right: 250px;
 
 
 }
@@ -1049,4 +1049,26 @@ transform: rotate(-90deg)
     width: 550px;
     height: 461px;
     margin-top: 150px;
+}
+.promo {
+    width: 100vh;
+    margin-top:140px;
+    margin-left: 154px;
+
+}
+.promo_adv {
+    width:428px;
+    height: 302px;
+    left: 154px;
+    background: #EDEBE9;
+}
+.promo_adv-text {
+    width: 100%;
+    height: 24px;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-size: 32px;
+    line-height: 24px;  
+}
+.promo_adv-img {
+margin-top: 300px;
 }
