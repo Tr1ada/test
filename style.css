@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "ValueSansProRegular";
+    font-family: "Value Sans Pro";
     src: url("../fonts/ValueSansProRegular/ValueSansProRegular.eot");
     src: url("../fonts/ValueSansProRegular/ValueSansProRegular.eot?#iefix")format("embedded-opentype"),
     url("../fonts/ValueSansProRegular/ValueSansProRegular.woff") format("woff"),
-    url("../fonts/ValueSansProRegular/ValueSansProRegular.ttf") format("truetype");
+    url("./fonts/ValueSansProRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }
@@ -15,7 +15,10 @@ a {
 * {
     box-sizing: border-box;
 }
-
+.size {
+    max-width: 1920px;
+    margin: 0 auto;
+}
 .main {
     font-family: 'Value Sans Pro', sans-serif;
     color: rgb(15, 15, 15);
@@ -27,7 +30,7 @@ a {
 .header {
     justify-content: space-between;
     display: flex;
-    z-index: 2
+    z-index: 2;
     width: 100%;
 }
 .menu {
@@ -48,7 +51,7 @@ a {
     transition: 0.2s;
 }
 
-.menu-link:hover {
+hover.menu-link: {
     color: red;
 }
 
@@ -165,8 +168,9 @@ a {
 
 .room {
     position: relative;
-    padding-left: 1200px;
-    padding-top:100px ;
+    padding-left: 1000px;
+    padding-top:100px;
+    margin-right: 154px;
 
 }
 .room_style {
@@ -356,7 +360,8 @@ a {
 .card-block-border {
     position: relative;
     border: 1px solid rgba(51, 51, 51, 0.27);
-    height: 280px;
+    height: 60%;
+    width: 130%;
 }
 .card_one {
     position: relative;
@@ -649,7 +654,6 @@ a {
     position: absolute;
     height: 100%;
     width: 33.333%;
-    float: left;
 }
 .responsive-img{
     width: 100%;
@@ -681,7 +685,7 @@ color: #FFFFFF;
 
 opacity: 0.9;
 transform: rotate(-90deg);
-top: 284px;
+top: 184px;
 }
 .resp_tzdf{
 position: absolute;
@@ -730,7 +734,7 @@ transform: rotate(-90deg)
     color: #FFFFFF;
     
     opacity: 0.9;
-    top: 680px;
+    top: 480px;
 }
 .relest {
     position: absolute;
@@ -750,7 +754,7 @@ transform: rotate(-90deg)
     color: #FFFFFF;
     
     opacity: 0.9;
-    top: 780px;
+    top: 580px;
 }
 .card_serch {
     margin-top: 500px;
@@ -834,7 +838,7 @@ transform: rotate(-90deg)
 .posters-cards {
     display: flex;
     margin-top: 140px;
-    margin-left: 140px;
+    margin-left: 40px;
 }
 
 .posters-cards:hover .posters-card__description-button {
@@ -939,7 +943,7 @@ transform: rotate(-90deg)
 .modal-link {
     margin-left: 134px;
     margin-top: 30px;
-    width: 35%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
     font-family: 'Value Sans Pro',sans-serif;
@@ -948,13 +952,17 @@ transform: rotate(-90deg)
     font-size: 34px;
     line-height: 24px;
     letter-spacing: 0.005em;
+    margin-right: 154px;
+    
 }
 .modal {
     display: flex;
     position: relative;
     margin-left: 150px;
-    height: 100%;
+    height: 56%;
     margin-top: 40px;
+    margin-left: 154px;
+    margin-right: 494px;
 } 
 .rule{
     position: absolute;
@@ -1007,7 +1015,7 @@ transform: rotate(-90deg)
 }
 .modal_line {
     position: relative;
-    right: 550px;
+    right: 410px;
 }
 .modal_line-one {
     width: 143px;
@@ -1046,29 +1054,248 @@ transform: rotate(-90deg)
 }
 .modal_img{
     display: flex;
-    width: 550px;
-    height: 461px;
+    width: 30%;
+    height: 361px;
     margin-top: 150px;
 }
 .promo {
-    width: 100vh;
     margin-top:140px;
     margin-left: 154px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .promo_adv {
-    width:428px;
+    width:26%;
     height: 302px;
     left: 154px;
     background: #EDEBE9;
+    text-align: end;
 }
 .promo_adv-text {
-    width: 100%;
+    width: calc(100% - 45px);
     height: 24px;
     font-family: 'Value Sans Pro',sans-serif;
     font-size: 32px;
-    line-height: 24px;  
+    line-height: 24px;
+    margin: 80px 0 0 45px;
+    text-align: start;
 }
 .promo_adv-img {
-margin-top: 300px;
+    margin: 52px 40px 0 0;
+}
+.promo_adv-one {
+    margin-left: 16px;
+    width: 39%;
+    height: 302px;
+    left: 598px;
+    background: #EDEBE9;
+    text-align: end;
+}
+.promo_adv-text-one {
+    width: calc(100% - 45px);
+    height: 24px;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-size: 32px;
+    line-height: 24px;
+    margin: 40px 0 0 45px;
+    text-align: start;
+}
+.promo_adv-two {
+    margin-left: 16px;
+    width:24%;
+    height: 302px;
+    left: 154px;
+    background: #EDEBE9;
+    text-align: end; 
+    display: inline-block;
+}
+.promo_adv-text-two {
+    width: calc(100% - 45px);
+    height: 24px;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-size: 32px;
+    line-height: 24px;
+    margin: 60px 0 0 45px;
+    text-align: start;
+}
+.promo_adv-three {
+    width:33%;
+    height: 302px;
+    left: 154px;
+    background: #EDEBE9;
+    text-align: end; 
+    margin-top: 16px;
+}
+
+.promo_adv-four {
+    margin-left: 16px;
+    width:57%;
+    height: 302px;
+    left: 154px;
+    background: #EDEBE9;
+    text-align: end; 
+    margin: 16px;
+}
+.promo_adv-text-three {
+    width: calc(100% - 45px);
+    height: 24px;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-size: 32px;
+    line-height: 24px;
+    margin: 80px 0 0 45px;
+    text-align: start;
+}
+.promo_adv-four:hover {
+    background: linear-gradient(90deg, #FAD0C4 0%, #FAD0C4 1%, #FFD1FF 100%);
+}
+.promo_adv:hover {
+    background: linear-gradient(90deg, #FAD0C4 0%, #FAD0C4 1%, #FFD1FF 100%);
+}
+.promo_adv-one:hover {
+    background: linear-gradient(90deg, #FAD0C4 0%, #FAD0C4 1%, #FFD1FF 100%);
+}
+.promo_adv-two:hover {
+    background: linear-gradient(90deg, #FAD0C4 0%, #FAD0C4 1%, #FFD1FF 100%);
+}
+.promo_adv-three:hover {
+    background: linear-gradient(90deg, #FAD0C4 0%, #FAD0C4 1%, #FFD1FF 100%);
+}
+.commercial {
+    margin-top: 140px;
+    margin-left: 154px;
+    margin-right: 154px;
+    display: flex;
+}
+.commercial_conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 57%;
+}
+.commercial_adv_one {
+    margin-left: 16px;
+}
+.commercial_adv-img {
+}
+.commercial_adv_two {
+    margin-left: 16px;
+}
+.commercial_adv_three {
+    margin-top: 16px;
+}
+.commercial_adv_four {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.commercial_more {
+    height: 730px;
+    background: #EDEBE9;
+    width: 386px;
+    margin-left: 16px;
+}
+.commercial_more-text {
+    font-family: 'Value Sans Pro',sans-serif;
+    font-family: 'Value Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+    /* identical to box height, or 75% */
+
+    letter-spacing: 0.005em;
+    margin-top: 204px;
+    margin-left:72px ;
+}
+.commercial_more-text-two {
+    font-family: 'Value Sans Pro';
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    margin-top: 30px;
+    width: 200px;
+    height: 72px;
+    margin-left:92px ;
+}
+.commercial_more-text-three {
+    height: 16px;   
+    font-family: 'Value Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #333333;
+    margin-left:53px ;
+    margin-top: 16px;
+    margin-right:53px;
+}
+.commercial-btn {
+    width: 220px;
+    height: 48px;
+    background: #FFD103;
+    border-radius: 44px;
+    margin-left:72px ;
+    margin-top: 24px;
+    text-decoration: none;
+}
+.commercial_more-text-three-old {
+    width: 180px;
+    height: 16px;   
+    font-family: 'Value Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #333333;;
+    margin-top: 16px;
+    margin-left: 23px;
+}
+.commercial_adv_six {
+    margin-top: 16px;
+}
+
+    
+.hooter {
+    width: 100%;
+    margin-top: 140px;
+    background: #EDEBE9;
+    
+}
+.hooter_catalog{
+    width: 350px;
+    height: 284px;
+    margin-left: 155px;
+    display: flex;
+    flex-direction: column;
+}
+.hooter_catalog-topic {
+    font-family: 'Value Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #333333;
+    margin-top: 60px;
+}
+.hooter_catalog-text {
+    font-family: 'Value Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #333333;
+    opacity: 0.9;
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hooter_catalog-text p {
+    width: 50%;
 }
