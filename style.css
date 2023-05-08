@@ -1506,7 +1506,7 @@ transform: rotate(-90deg)
     background-color: #ed812b;
 }
 .hooter_down-line {
-    margin-top:63px;
+    margin-top:42px;
     width:100%;
     border-bottom: 1px solid rgba(51, 51, 51, 0.27);
 }
@@ -1523,7 +1523,7 @@ transform: rotate(-90deg)
 }
 .hooter_down-text {
     display: flex;
-    margin-top:44px;
+    margin-top:42px;
 }
 .hooter_down-text-two {
     width: 400px;
