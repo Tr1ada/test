@@ -494,9 +494,9 @@ a {
     font-style: normal;
     font-weight: 100;
     font-size: 16px;
-    line-height: 16px;  
-    letter-spacing: 0.005em;  
-    color: #333333; 
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    color: #333333;
     opacity: 0.9;
     background: #FFD103;
     padding: 19px 16px;
@@ -538,9 +538,9 @@ a {
     font-style: normal;
     font-weight: 100;
     font-size: 16px;
-    line-height: 16px;  
-    letter-spacing: 0.005em;  
-    color: #333333; 
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    color: #333333;
     opacity: 0.9;
     background: #FFD103;
     padding: 19px 16px;
@@ -589,9 +589,9 @@ a {
     font-style: normal;
     font-weight: 100;
     font-size: 16px;
-    line-height: 16px;  
-    letter-spacing: 0.005em;  
-    color: #333333; 
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    color: #333333;
     opacity: 0.9;
     background: #FFD103;
     padding: 19px 16px;
@@ -636,9 +636,9 @@ a {
     font-style: normal;
     font-weight: 100;
     font-size: 16px;
-    line-height: 16px;  
-    letter-spacing: 0.005em;  
-    color: #333333; 
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    color: #333333;
     opacity: 0.9;
     background: #FFD103;
     padding: 19px 16px;
@@ -670,45 +670,45 @@ a {
 .responsive-img_left {
     width: 100%;
 }
-.resp{ 
-position: absolute;
+.resp{
+    position: absolute;
 
-height: 20px;
-left: 10px;
-font-family: 'Value Sans Pro',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 20px;
-/* identical to box height, or 62% */
+    height: 20px;
+    left: 10px;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 20px;
+    /* identical to box height, or 62% */
 
-letter-spacing: 0.005em;
+    letter-spacing: 0.005em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-opacity: 0.9;
-transform: rotate(-90deg);
-top: 184px;
+    opacity: 0.9;
+    transform: rotate(-90deg);
+    top: 184px;
 }
 .resp_tzdf{
-position: absolute;
+    position: absolute;
 
 
-height: 20px;
-left: 84px;
-font-family: 'Value Sans Pro',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 20px;
-/* identical to box height, or 62% */
+    height: 20px;
+    left: 84px;
+    font-family: 'Value Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 20px;
+    /* identical to box height, or 62% */
 
-letter-spacing: 0.005em;
+    letter-spacing: 0.005em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-opacity: 0.9;
-transform: rotate(-90deg)
+    opacity: 0.9;
+    transform: rotate(-90deg)
 }
 .desc_center {
     position: absolute;
@@ -722,7 +722,7 @@ transform: rotate(-90deg)
 .resp_app {
     position: absolute;
 
-    
+
     height: 20px;
     left: 100px;
     font-family: 'Value Sans Pro',sans-serif;
@@ -731,18 +731,18 @@ transform: rotate(-90deg)
     font-size: 50px;
     line-height: 64px;
     /* identical to box height, or 200% */
-    
+
     letter-spacing: -0.01em;
-    
+
     color: #FFFFFF;
-    
+
     opacity: 0.9;
     top: 480px;
 }
 .relest {
     position: absolute;
 
-    
+
     height: 20px;
     left: 100px;
     font-family: 'Value Sans Pro',sans-serif;
@@ -751,11 +751,11 @@ transform: rotate(-90deg)
     font-size: 64px;
     line-height: 64px;
     /* identical to box height, or 100% */
-    
+
     letter-spacing: -0.01em;
-    
+
     color: #FFFFFF;
-    
+
     opacity: 0.9;
     top: 580px;
 }
@@ -917,9 +917,9 @@ transform: rotate(-90deg)
     font-style: normal;
     font-weight: 100;
     font-size: 16px;
-    line-height: 16px;  
-    letter-spacing: 0.005em;  
-    color: #333333; 
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    color: #333333;
     opacity: 0.9;
     background: #FFD103;
     padding: 19px 16px;
@@ -956,7 +956,7 @@ transform: rotate(-90deg)
     line-height: 24px;
     letter-spacing: 0.005em;
     margin-right: 154px;
-    
+
 }
 .modal {
     display: flex;
@@ -966,7 +966,7 @@ transform: rotate(-90deg)
     margin-top: 40px;
     margin-left: 154px;
     margin-right: 494px;
-} 
+}
 .rule{
     position: absolute;
     bottom: 200px;
@@ -1012,7 +1012,7 @@ transform: rotate(-90deg)
     position: absolute;
     left: 360px;
     top: 50px;
-} 
+}
 .modal_jpg {
     margin-left: 16px;
 }
@@ -1110,7 +1110,7 @@ transform: rotate(-90deg)
     height: 302px;
     left: 154px;
     background: #EDEBE9;
-    text-align: end; 
+    text-align: end;
     display: inline-block;
 }
 .promo_adv-text-two {
@@ -1127,7 +1127,7 @@ transform: rotate(-90deg)
     height: 302px;
     left: 154px;
     background: #EDEBE9;
-    text-align: end; 
+    text-align: end;
     margin-top: 16px;
 }
 
@@ -1137,7 +1137,7 @@ transform: rotate(-90deg)
     height: 302px;
     left: 154px;
     background: #EDEBE9;
-    text-align: end; 
+    text-align: end;
     margin: 16px;
 }
 .promo_adv-text-three {
@@ -1221,7 +1221,7 @@ transform: rotate(-90deg)
     margin-left:92px ;
 }
 .commercial_more-text-three {
-    height: 16px;   
+    height: 16px;
     font-family: 'Value Sans Pro';
     font-style: normal;
     font-weight: 700;
@@ -1245,7 +1245,7 @@ transform: rotate(-90deg)
 }
 .commercial_more-text-three-old {
     width: 180px;
-    height: 16px;   
+    height: 16px;
     font-family: 'Value Sans Pro';
     font-style: normal;
     font-weight: 700;
@@ -1261,15 +1261,11 @@ transform: rotate(-90deg)
     margin-top: 16px;
 }
 
-    
+
 .hooter {
     width: 100%;
     margin-top: 140px;
     background: #EDEBE9;
-    height: 528px;
-    padding: 0 8%;
-    
-    
 }
 .hooter_catalog{
     width: 350px;
@@ -1326,6 +1322,7 @@ transform: rotate(-90deg)
 .hooter_conteiner {
     display: flex;
     justify-content: space-between;
+    padding: 0 8%;
 }
 .hooter_catalog-topic_two {
     font-family: 'Value Sans Pro';
@@ -1505,6 +1502,10 @@ transform: rotate(-90deg)
 .hooter_top-img-three:hover {
     background-color: #ed812b;
 }
+.hooter_down {
+    margin-top: 42px;
+    padding: 0 8% 42px 8%;
+}
 .hooter_down-line {
     margin-top:42px;
     width:100%;
@@ -1523,11 +1524,11 @@ transform: rotate(-90deg)
 }
 .hooter_down-text {
     display: flex;
-    margin-top:42px;
 }
 .hooter_down-text-two {
     width: 400px;
     margin-left: 24px;
+    text-decoration: underline;
 }
 .hooter_down-text-three {
     width: 73px;
